@@ -2,6 +2,7 @@
 """
 Created on Mon Aug 14 23:37:41 2017
 https://campus.datacamp.com/courses/kaggle-python-tutorial-on-machine-learning
+https://github.com/datacamp/courses-kaggle-python-machine-learning/blob/master/Python_Code__For_Decision_Trees
 @author: neeraj
 """
 
@@ -151,7 +152,7 @@ test["Embarked"][test["Embarked"] == "S"] = 0
 test["Embarked"][test["Embarked"] == "C"] = 1
 test["Embarked"][test["Embarked"] == "Q"] = 2
 
-
+test.Fare[152] = test.Fare.median()
 
 
 
